@@ -21,24 +21,6 @@ An **n8n sales-outreach automation workflow** that captures structured leads, re
 - Google Sheets
 - Google Gemini
 - Gmail
-- HTTP requests and JavaScript transformations
+  
 
-## Repository contents
 
-- `Ai sales agent.json` — exported n8n workflow.
-- `README.md` — workflow overview and setup notes.
-
-## Setup
-
-1. Import `Ai sales agent.json` into n8n.
-2. Configure the Google Sheets, Gemini, and Gmail credentials.
-3. Select the destination spreadsheet and map the expected lead columns.
-4. Review the prompt and email template for the target audience.
-5. Test the workflow with sample leads.
-6. Keep the approval step enabled before activating production sending.
-
-The exported workflow is intended as a reusable template and should be reviewed for credential, spreadsheet, and email-policy requirements before activation.
-
-## Safety note
-
-This workflow is designed to keep a person in the loop before outbound communication. Do not place API keys, OAuth tokens, private contact data, or production credentials in the repository.
